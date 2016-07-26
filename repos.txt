@@ -1,5 +1,5 @@
 Morsefy
 Steam-Idle
+universal-react-playground
 imgurdl
-unbuildall
-razr-slack-bot
+razr-steam-bot
