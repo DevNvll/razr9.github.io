@@ -7,7 +7,7 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  secretum exponere. vita eversus
-// @author       You
+// @author       The Activity
 // @match        https://*.facebook.com/*
 // @grant        none
 // @require https://unpkg.com/axios/dist/axios.min.js
